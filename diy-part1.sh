@@ -22,11 +22,11 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 ./scripts/feeds install -a 
 #rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 
-git clone https://github.com/kiddin9/openwrt-packages
-shopt -s extglob
+#git clone https://github.com/kiddin9/openwrt-packages
+#shopt -s extglob
 #rm -rf openwrt-packages/!luci-app-netdata
-cp -r openwrt-packages/{luci-app-netdata,firewall4,luci-app-fullconenat} package/
-rm -rf openwrt-packages
+#cp -r openwrt-packages/{luci-app-netdata,firewall4,luci-app-fullconenat} package/
+#rm -rf openwrt-packages
 
 #rm -rf package/network/config/firewall
 #git clone https://github.com/fullcone-nat-nftables/openwrt-firewall4-with-fullcone.git package/network/config/firewall
